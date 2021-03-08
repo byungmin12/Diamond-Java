@@ -1,5 +1,7 @@
 public class DiamondJava {
+    
     public static void main(String[] args) {
+        
         for (int i = 0; i < 5; i++) {
 
             for (int j = 4; j > i; j--) {
@@ -11,10 +13,8 @@ public class DiamondJava {
 
                 // i = 3 j = 4
 
-                // i = 4 --> j는 4부터 시작하여 i보다 클때까지 - 시키는데 4는 j와 같으므로 제외
-
+                // i = 4 
                 System.out.print(" ");
-
             }
 
             for (int k = 1; k <= i*2+1; k++) {
@@ -31,9 +31,7 @@ public class DiamondJava {
                 // i 가 4 -->4*2+1  9 9 <= 1,2,3,4,5,6,7,8,9
 
             }
-
             System.out.println("");
-
         }
 
 
@@ -49,7 +47,6 @@ public class DiamondJava {
                 // i = 3 j = 3 -->0,1,2,3
 
                 System.out.print(" ");
-
             }
 
             for (int k = 7 ; k >= i*2+1; k--) {
@@ -61,14 +58,12 @@ public class DiamondJava {
 
                 // 3*2+1 7 =     7
 
-
                 System.out.print("*");
-
             }
 
             System.out.println();
         }
 
-    } //main 괄호
+    } 
 
 }
